@@ -7,11 +7,13 @@ import { Content } from "./Content";
 const LandingComponent: FC = (): JSX.Element => {
   return (
     <div
-    // style={{backgroundColor:"#202124"}}
+    // className="bg-black-light"
     >
       {/* Header Section */}
-      <Navbar />
-      <Categories />
+      <div className="bg-black-light">
+        <Navbar />
+        <Categories />
+      </div>
 
       {/* Body Section */}
       <div className="border border-green-500 grid grid-cols-8 gap-4">

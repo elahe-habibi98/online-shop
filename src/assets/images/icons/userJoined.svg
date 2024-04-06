@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="19.5" viewBox="0 0 21.5 19.5">
+  <g id="user-account-stroke-rounded" transform="translate(-1.25 -2.25)">
+    <path id="Path_1" data-name="Path 1" d="M14,9h4" fill="none" stroke="#757575" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_2" data-name="Path 2" d="M14,12.5h3" fill="none" stroke="#757575" stroke-linecap="round" stroke-width="1.5"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="20" height="18" rx="5" transform="translate(2 3)" fill="none" stroke="#757575" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_3" data-name="Path 3" d="M5,16c1.208-2.581,5.712-2.751,7,0" fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_4" data-name="Path 4" d="M10.5,9a2,2,0,1,1-2-2A2,2,0,0,1,10.5,9Z" fill="none" stroke="#757575" stroke-width="1.5"/>
+  </g>
+</svg>

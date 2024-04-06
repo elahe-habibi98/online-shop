@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.691" height="21.5" viewBox="0 0 21.691 21.5">
+  <g id="coins" transform="translate(-1.059 -1.25)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="6.5" cy="2" rx="6.5" ry="2" transform="translate(9 9)" fill="none" stroke="#7d9fdd" stroke-width="1.5"/>
+    <path id="Path_1" data-name="Path 1" d="M22,15.5c0,1.1-2.91,2-6.5,2S9,16.6,9,15.5" fill="none" stroke="#7d9fdd" stroke-width="1.5"/>
+    <path id="Path_2" data-name="Path 2" d="M22,11v8.8c0,1.215-2.91,2.2-6.5,2.2S9,21.015,9,19.8V11" fill="none" stroke="#7d9fdd" stroke-width="1.5"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="6.5" cy="2" rx="6.5" ry="2" transform="translate(2 2)" fill="none" stroke="#7d9fdd" stroke-width="1.5"/>
+    <path id="Path_3" data-name="Path 3" d="M6,11c-1.892-.23-3.63-.825-4-2m4,7c-1.892-.23-3.63-.825-4-2" fill="none" stroke="#7d9fdd" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_4" data-name="Path 4" d="M6,21c-1.892-.23-3.63-.826-4-2V4" fill="none" stroke="#7d9fdd" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_5" data-name="Path 5" d="M15,6V4" fill="none" stroke="#7d9fdd" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

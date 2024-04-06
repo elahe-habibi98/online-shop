@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+  <g id="product-loading-stroke-rounded" transform="translate(-1.25 -1.25)">
+    <path id="Path_1" data-name="Path 1" d="M4.5,10.265V6h15v4.265c0,3.175,0,4.762-.976,5.748S15.976,17,12.833,17H11.167c-3.143,0-4.714,0-5.69-.986S4.5,13.44,4.5,10.265Z" fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_2" data-name="Path 2" d="M4.5,6l.721-1.538c.559-1.193.839-1.79,1.406-2.126A5.584,5.584,0,0,1,9.375,2h5.25a5.584,5.584,0,0,1,2.748.336c.567.336.847.932,1.406,2.126L19.5,6" fill="none" stroke="#757575" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_3" data-name="Path 3" d="M10.5,9h3" fill="none" stroke="#757575" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_4" data-name="Path 4" d="M12,19.5V22m0-2.5H7m5,0h5m-10,0H4.5A2.5,2.5,0,0,0,2,22m5-2.5V22m10-2.5h2.5A2.5,2.5,0,0,1,22,22m-5-2.5V22" fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
