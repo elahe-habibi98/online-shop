@@ -1,14 +1,12 @@
-import './App.css'
+import "./App.css";
+import { Landing } from "./screens/Landing";
 
 function App() {
-
   return (
-    <>
-      <div className="border border-black text-red-500" >
-        Click on the Vite and React logos to learn more
-      </div>
-    </>
-  )
+    <div className="border container">
+      <Landing />
+    </div>
+  );
 }
 
-export default App
+export default App;
