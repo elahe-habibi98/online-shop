@@ -16,7 +16,7 @@ const LandingComponent: FC = (): JSX.Element => {
       </div>
 
       {/* Body Section */}
-      <div className="border border-green-500 grid grid-cols-8 gap-4">
+      <div className="border border-green-500 grid grid-cols-12 gap-4">
         <Filters />
         <Content />
       </div>

@@ -4,6 +4,9 @@
   /* padding: 2rem; */
   /* text-align: center; */
 }
+body {
+  margin:0;
+}
 .custom-input::placeholder {
   font-size: 14px; 
 }

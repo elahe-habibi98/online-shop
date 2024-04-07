@@ -14,7 +14,7 @@ const Navbar: FC = (): JSX.Element => {
   const coins: number = 2500782;
   // bg-black-light
   return (
-    <div className="flex gap-10 px-[20px] py-[5px] mt-[10px]">
+    <div className="flex gap-10 px-[20px] py-[5px] pt-[10px]">
       <div className="w-[100px] h-[30px]">
         <span className="font-bold text-2xl text-white">Blon</span>
         <span className="text-blue-navy italic font-bold text-2xl">djoe</span>
@@ -50,7 +50,7 @@ const Navbar: FC = (): JSX.Element => {
         <div className="w-[25px] rounded-full p-[5px]">
           <img src={notificationIcon} />
         </div>
-        <div className=" h-[15px] bg-white mx-[5px] border border-white" />
+        <div className=" h-[15px] bg-white mx-[5px] border border-gray-light" />
         <div className="w-[25px] rounded-full p-[5px]">
           <img src={menuIcon} />
         </div>
