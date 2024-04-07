@@ -5,8 +5,10 @@ import { ShopInfo } from "./ShopInfo";
 import { ShopProducts } from "./ShopProducts";
 import trophyIcon from "../../../assets/images/icons/champion.svg";
 import likeIcon from "../../../assets/images/icons/thumb.svg";
+import { Tabs } from "../Tabs";
 
 const Content: FC = (): JSX.Element => {
+  const tabData = [{ label: "Tab 1" }, { label: "Tab 2" }, { label: "Tab 3" }];
   return (
     <div className="border col-span-10">
       <div className="border h-[30px] my-[10px]"></div>
@@ -65,6 +67,7 @@ const Content: FC = (): JSX.Element => {
         <div className=" rounded-lg bg-gray-dark h-[250px]"></div>
       </div> */}
       <ShopProducts />
+      <Tabs tabs={tabData} />
     </div>
   );
 };
