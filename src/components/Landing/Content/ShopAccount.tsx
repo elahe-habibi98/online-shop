@@ -1,5 +1,5 @@
 import { FC } from "react";
-import shop from "../../../assets/images/clothing/shop.jpg";
+import shop from "../../../assets/images/skincare/item3.jpg";
 import chatIcon from "../../../assets/images/icons/commentBlue.svg";
 import storeIcon from "../../../assets/images/icons/store.svg";
 import verifyIcon from "../../../assets/images/icons/verify.svg";
@@ -7,11 +7,11 @@ import verifyIcon from "../../../assets/images/icons/verify.svg";
 const ShopAccount: FC = (): JSX.Element => {
   return (
     <div className=" rounded-lg bg-gray-dark h-[100%] p-[15px] flex flex-col justify-between">
-      <img src={shop} className="w-[100%] h-[85px] rounded-lg inline-block " />
+      <img src={shop} className="w-[100%] h-[85px] rounded-lg inline-block object-cover" />
       <div className="">
         <div className="h-[25px] bg-gray-dark flex gap-2 items-center mt-[5px] ">
           <img src={storeIcon} className="h-[100%] w-[15px]" />
-          <p className="text-white">Clothing shop</p>
+          <p className="text-white">Mawar shop</p>
           <img src={verifyIcon} className="h-[100%] w-[15px]" />
           <div className="ms-auto flex gap-2 items-center">
             <div className="w-[7px] h-[7px] bg-green-lawn rounded-full" />

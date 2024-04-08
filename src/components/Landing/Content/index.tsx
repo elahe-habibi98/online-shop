@@ -5,37 +5,19 @@ import { ShopInfo } from "./ShopInfo";
 import { ShopProducts } from "./ShopProducts";
 import trophyIcon from "../../../assets/images/icons/champion.svg";
 import likeIcon from "../../../assets/images/icons/thumb.svg";
-import { Tabs } from "../Tabs";
 
 const Content: FC = (): JSX.Element => {
-  const tabData = [{ label: "Tab 1" }, { label: "Tab 2" }, { label: "Tab 3" }];
   return (
     <div className="border col-span-10">
-      <div className="border h-[30px] my-[10px]"></div>
+      <div className="border h-[30px] my-[10px] text-gray-light flex gap-2">
+        <span>Home</span>
+        <span>{">"}</span>
+        <span>Shop</span>
+        <span>{">"}</span>
+        <span className="text-white-dark">Mawarshop</span>
+      </div>
       <div className="border h-[190px] mb-[5px] grid grid-cols-4 gap-4">
-        {/* <div className=" rounded-lg bg-gray-dark h-[100%] p-[15px]">
-          <img src={shop} className="w-[100%] h-[70px] rounded-lg" />
-          <div className="">
-            <div className="h-[25px] bg-gray-dark flex gap-2 items-center mt-[5px]">
-              <img src={storeIcon} className="h-[100%] w-[15px]" />
-              <p className="text-white">Clothing shop</p>
-              <img src={verifyIcon} className="h-[100%] w-[15px]" />
-              <div className="ms-auto flex gap-2 items-center">
-                <div className="w-[7px] h-[7px] bg-green-lawn rounded-full" />
-                <p className="text-green-lawn">Online</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-3">
-              <button className="text-white bg-blue-dark rounded-[20px]">
-                Follow  +
-              </button>
-              <button className="text-white bg-gray-dark border-2 border-blue-dark rounded-[20px] flex items-center justify-center gap-2">
-                Chat
-                <img src={chatIcon} className="w-[15px] h-[15px]" />
-              </button>
-            </div>
-          </div>
-        </div> */}
+        {/* <div className=" rounded-lg bg-gray-dark h-[100%] p-[15px]"></div> */}
         <ShopAccount />
         <div className="border border-green-500 h-[100%] col-span-3 grid grid-rows-3 gap-5">
           <div className="border border-red-500 row-span-2 grid grid-cols-11 gap-4">
@@ -62,12 +44,8 @@ const Content: FC = (): JSX.Element => {
       </div>
       {/* <div className="mt-[30px] border border-black grid grid-cols-4 gap-4">
         <div className=" rounded-lg bg-gray-dark h-[250px]"></div>
-        <div className=" rounded-lg bg-gray-dark h-[250px]"></div>
-        <div className=" rounded-lg bg-gray-dark h-[250px]"></div>
-        <div className=" rounded-lg bg-gray-dark h-[250px]"></div>
       </div> */}
       <ShopProducts />
-      <Tabs tabs={tabData} />
     </div>
   );
 };

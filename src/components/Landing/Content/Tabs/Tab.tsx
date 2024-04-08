@@ -7,7 +7,7 @@ interface ITabProp {
 
 const Tab: FC<ITabProp> = ({ isActive, label, onClick }): JSX.Element => {
   return (
-    <div className={`tab ${isActive ? "active" : ""}`} onClick={onClick}>
+    <div className={`tab ${isActive ? "active" : ""} text-gray-light p-[10px] cursor-pointer text-lg font-bold`} onClick={onClick}>
       {label}
     </div>
   );
