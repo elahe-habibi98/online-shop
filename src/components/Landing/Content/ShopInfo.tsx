@@ -24,21 +24,21 @@ const ShopInfo: FC = (): JSX.Element => {
   return (
     <div className="col-span-11 xl:col-span-5 rounded-lg bg-gray-dark grid grid-cols-2 py-[10px] px-[15px]">
       <div className=" flex flex-col justify-between lg:ms-5px">
-        {info.slice(0, 3).map((m: TInfo, index: number) => (
+        {info.slice(0, 3).map((item: TInfo, index: number) => (
           <div key={index} className="flex gap-2 items-center ">
-            <img src={m.icon} alt="" className="h-[15px] w-[15px]" />
+            <img src={item.icon} alt="" className="h-[15px] w-[15px]" />
             <span className="text-white-dark">
-              {m.label}: <span className="text-blue-sky">{m.value}</span>{" "}
+              {item.label}: <span className="text-blue-sky">{item.value}</span>{" "}
             </span>
           </div>
         ))}
       </div>
       <div className=" flex flex-col justify-between">
-        {info.slice(3, 6).map((m: TInfo, index: number) => (
+        {info.slice(3, 6).map((item: TInfo, index: number) => (
           <div key={index} className="flex gap-2 items-center ">
-            <img src={m.icon} alt="" className="h-[15px] w-[15px]" />
+            <img src={item.icon} alt="" className="h-[15px] w-[15px]" />
             <span className="text-white-dark">
-              {m.label}: <span className="text-blue-sky">{m.value}</span>{" "}
+              {item.label}: <span className="text-blue-sky">{item.value}</span>{" "}
             </span>
           </div>
         ))}

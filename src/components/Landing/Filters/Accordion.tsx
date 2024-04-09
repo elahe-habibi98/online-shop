@@ -20,10 +20,10 @@ const Accordion: FC<IAccordionProp> = ({ title, content }): JSX.Element => {
       </div>
       {isActive && (
         <div className="my-[5px] text-gray-light text-sm">
-          {content.map((m: string, index: number) => (
+          {content.map((item: string, index: number) => (
             <div key={index} className="flex gap-1 items-center">
               <div className="w-[15px] h-[15px] border border-gray-mild rounded bg-gray-dark"/>
-              <span className="block mb-[3px] cursor-pointer">{m}</span>
+              <span className="block mb-[3px] cursor-pointer">{item}</span>
             </div>
           ))}
         </div>

@@ -2,7 +2,6 @@ import { FC } from "react";
 interface ITabProp {
   isActive: boolean;
   tabData:{label:string,icon:string}
-  // label: string;
   onClick: any;
 }
 

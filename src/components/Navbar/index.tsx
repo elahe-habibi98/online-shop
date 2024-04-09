@@ -1,15 +1,13 @@
 import { FC } from "react";
-import filterIcon from "../../assets/images/icons/filter.svg";
-import searchIcon from "../../assets/images/icons/search.svg";
-import coinsIcon from "../../assets/images/icons/coins.svg";
-import heartIcon from "../../assets/images/icons/heart.svg";
 import cartIcon from "../../assets/images/icons/cart.svg";
-import notificationIcon from "../../assets/images/icons/notification.svg";
+import coinsIcon from "../../assets/images/icons/coins.svg";
+import filterIcon from "../../assets/images/icons/filter.svg";
+import heartIcon from "../../assets/images/icons/heart.svg";
 import menuIcon from "../../assets/images/icons/menu.svg";
-import userPic from "../../assets/images/userPic.jpg";
 import menuLinedIcon from "../../assets/images/icons/menuLined.svg";
-
-// import logoImg from "@assets/images/logo.png";
+import notificationIcon from "../../assets/images/icons/notification.svg";
+import searchIcon from "../../assets/images/icons/search.svg";
+import userPic from "../../assets/images/userPic.jpg";
 
 const Navbar: FC = (): JSX.Element => {
   const coins: number = 2500782;

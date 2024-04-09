@@ -3,7 +3,7 @@ import { Landing } from "./screens/Landing";
 
 function App() {
   return (
-    <div className="border container">
+    <div className="container bg-black-light">
       <Landing />
     </div>
   );

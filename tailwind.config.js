@@ -14,10 +14,6 @@ export default {
         "blue-dark": "#1C64EC",
         "white-dark": "#F4F4F4",
       },
-      scrollBar: {
-        height: "200px",
-        "overflow-y": "scroll",
-      },
     },
     container: {
       center: true,

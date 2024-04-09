@@ -6,7 +6,7 @@ const ShopProducts: FC = (): JSX.Element => {
   
 
   return (
-    <div className="mt-[30px]  border border-black  ">
+    <div className="mt-[30px]   ">
       <Tabs tabs={tabData} />
     </div>
   );

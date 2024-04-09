@@ -1,6 +1,5 @@
 import { FC } from "react";
 import clothingIcon from "../../../assets/images/icons/clothing.svg";
-import jewelryIcon from "../../../assets/images/icons/jewelry.svg";
 import skincareIcon from "../../../assets/images/icons/skincare.svg";
 
 const Categories: FC = (): JSX.Element => {
