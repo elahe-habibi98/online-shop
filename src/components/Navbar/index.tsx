@@ -12,7 +12,7 @@ import userPic from "../../assets/images/userPic.jpg";
 
 const Navbar: FC = (): JSX.Element => {
   const coins: number = 2500782;
-  // bg-black-light
+
   return (
     <div className="flex gap-10 px-[20px] py-[5px] pt-[10px]">
       <div className="w-[100px] h-[30px]">
@@ -21,7 +21,7 @@ const Navbar: FC = (): JSX.Element => {
       </div>
       <div className="flex items-center bg-gray-dark rounded-[20px] px-[8px]">
         <div className="w-[13px] me-[10px]">
-          <img src={searchIcon} />
+          <img src={searchIcon} alt="" />
         </div>
         <input
           name="search"
@@ -30,32 +30,32 @@ const Navbar: FC = (): JSX.Element => {
           style={{ outline: "none", backgroundColor: "#35363A" }}
         />
         <div className="w-[15px] me-[5px]">
-          <img src={filterIcon} />
+          <img src={filterIcon} alt="" />
         </div>
       </div>
       <div className="bg-gray-dark flex items-center px-[10px] rounded-[20px] ms-[10px]">
         <div className="w-[15px] me-[5px]">
-          <img src={coinsIcon} />
+          <img src={coinsIcon} alt=""/>
         </div>
-        <p className="text-blue-sky text-sm">Coin : {coins.toLocaleString()}</p>
+        <span className="text-blue-sky text-sm block">Coin : {coins.toLocaleString()}</span>
       </div>
 
       <div className="ms-auto flex items-center gap-3 ms-[10px]">
         <div className="w-[25px] rounded-full p-[5px] ">
-          <img src={heartIcon} />
+          <img src={heartIcon} alt=""/>
         </div>
         <div className="w-[25px] rounded-full p-[5px]">
-          <img src={cartIcon} />
+          <img src={cartIcon} alt=""/>
         </div>
         <div className="w-[25px] rounded-full p-[5px]">
-          <img src={notificationIcon} />
+          <img src={notificationIcon} alt=""/>
         </div>
         <div className=" h-[15px] bg-white mx-[5px] border border-gray-light" />
         <div className="w-[25px] rounded-full p-[5px]">
-          <img src={menuIcon} />
+          <img src={menuIcon} alt=""/>
         </div>
         <div className="w-[35px]">
-          <img src={userPic} className="w-100 rounded-full" />
+          <img src={userPic} alt="" className="w-100 rounded-full" />
         </div>
       </div>
     </div>

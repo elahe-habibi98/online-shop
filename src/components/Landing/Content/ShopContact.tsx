@@ -5,8 +5,13 @@ import facebookIcon from "../../../assets/images/icons/facebook.svg";
 import pinterestIcon from "../../../assets/images/icons/pinterest.svg";
 import youtubeIcon from "../../../assets/images/icons/youtube.svg";
 
+type TContact = {
+  icon: string;
+  value: string;
+};
+
 const ShopContact: FC = (): JSX.Element => {
-  const contact = [
+  const contact: TContact[] = [
     { icon: whatsappIcon, value: "+629817239012" },
     { icon: instagramIcon, value: "mwrshop" },
     { icon: facebookIcon, value: "mwrshop" },
@@ -15,17 +20,16 @@ const ShopContact: FC = (): JSX.Element => {
   ];
   return (
     <div className=" rounded-lg bg-gray-dark flex justify-between px-[15px]">
-      {contact.map((m: any, index: number) => (
+      {contact.map((m: TContact, index: number) => (
         <>
           <div key={index} className="flex gap-2 items-center ">
-            <img src={m.icon} className="h-[15px] w-[15px] block" />
+            <img src={m.icon} alt="" className="h-[15px] w-[15px] block" />
             <span className="text-white-dark block">{m.value}</span>
           </div>
           {index !== contact.length - 1 && (
             <div className="flex items-center mx-auto">
               <div className=" h-[15px] bg-white mx-auto border border-gray-light" />
             </div>
-            
           )}
         </>
       ))}

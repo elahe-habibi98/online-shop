@@ -1,21 +1,33 @@
 import { FC, useState } from "react";
-import arrowIcon from "../../../assets/images/icons/arrowDown.svg"
+import arrowIcon from "../../../assets/images/icons/arrowDown.svg";
 
 interface IAccordionProp {
   title: string;
-  content: any;
+  content: string[];
 }
 
 const Accordion: FC<IAccordionProp> = ({ title, content }): JSX.Element => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState<boolean>(false);
 
   return (
-    <div className="">
-      <div className="flex gap-1 items-center" onClick={() => setIsActive(!isActive)}>
-        <span className="text-white-dark text-base">{title}</span>
-        <img src={arrowIcon} className="block pt-[5px] w-[12px] h-[12px]" />
+    <div className="mb-[10px]">
+      <div
+        className="flex gap-1 items-center cursor-pointer"
+        onClick={() => setIsActive(!isActive)}
+      >
+        <span className="text-white-dark text-base ">{title}</span>
+        <img src={arrowIcon} alt="" className="block pt-[5px] w-[12px] h-[12px]" />
       </div>
-      {isActive && <div className="my-[5px] text-gray-light text-sm">{content}</div>}
+      {isActive && (
+        <div className="my-[5px] text-gray-light text-sm">
+          {content.map((m: string, index: number) => (
+            <div key={index} className="flex gap-1 items-center">
+              <div className="w-[15px] h-[15px] border border-gray-mild rounded bg-gray-dark"/>
+              <span className="block mb-[3px] cursor-pointer">{m}</span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

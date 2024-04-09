@@ -9,7 +9,7 @@ import likeIcon from "../../../assets/images/icons/thumb.svg";
 const Content: FC = (): JSX.Element => {
   return (
     <div className="border col-span-10">
-      <div className="border h-[30px] my-[10px] text-gray-light flex gap-2">
+      <div className="border h-[30px] mb-[10px] text-gray-light flex gap-2">
         <span>Home</span>
         <span>{">"}</span>
         <span>Shop</span>
@@ -27,14 +27,14 @@ const Content: FC = (): JSX.Element => {
               <div className="flex flex-col justify-between w-[80%] items-center">
                 <span>Adwards for</span>
                 <span>top shops</span>
-                <img src={trophyIcon} className="w-[30px] h-[30px] mt-[10px]" />
+                <img src={trophyIcon} alt="" className="w-[30px] h-[30px] mt-[10px]" />
               </div>
             </div>
             <div className=" rounded-lg bg-green-lawn col-span-3 text-white flex items-center justify-center ">
               <div className="flex flex-col justify-between w-[80%] items-center">
                 <span>Best seller of</span>
                 <span>the year</span>
-                <img src={likeIcon} className="w-[30px] h-[30px] mt-[10px]" />
+                <img src={likeIcon} alt="" className="w-[30px] h-[30px] mt-[10px]" />
               </div>
             </div>
           </div>

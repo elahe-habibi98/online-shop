@@ -12,12 +12,12 @@ import item5 from "../../../../assets/images/skincare/item6.jpg";
 import { Tab } from "./Tab";
 
 interface ITabsProp {
-  tabs: any;
+  tabs: string[];
 }
 
 const Tabs: FC<ITabsProp> = ({ tabs }): JSX.Element => {
-  const [activeTab, setActiveTab] = useState(1);
-  const allProducts = [
+  const [activeTab, setActiveTab] = useState<number>(1);
+  const allProducts:string[] = [
     item1,
     item2,
     item3,
@@ -28,9 +28,9 @@ const Tabs: FC<ITabsProp> = ({ tabs }): JSX.Element => {
     item8,
     item9,
   ];
-  const clothingProducts = [item1, item4, item6];
-  const skincareProducts = [item2, item7, item5];
-  const [products, setProducts] = useState(allProducts);
+  const clothingProducts:string[] = [item1, item4, item6];
+  const skincareProducts:string[] = [item2, item7, item5];
+  const [products, setProducts] = useState<string[]>(allProducts);
 
   const handleTabClick = (index: number) => {
     setActiveTab(index + 1);
@@ -48,33 +48,32 @@ const Tabs: FC<ITabsProp> = ({ tabs }): JSX.Element => {
       setProducts([]);
     }
   };
-  console.log("length:", products.length);
 
   return (
     <div className="tabs-container ">
       <div className="flex justify-between border-b-[3px] border-gray-light ">
-        {tabs.map((m: any, index: number) => (
+        {tabs.map((m: string, index: number) => (
           <Tab
             key={index}
-            label={m.label}
+            label={m}
             onClick={() => handleTabClick(index)}
             isActive={index === activeTab - 1}
           />
         ))}
       </div>
       <div className="mt-[20px] grid grid-cols-4 gap-4 pe-[10px] overflow-y-auto h-[300px]">
-        {products.map((m: any, index: number) =>
+        {products.map((m: string, index: number) =>
           products.length > 0 ? (
             <div
               key={index}
               className=" rounded-lg bg-gray-dark h-[250px] overflow-hidden relative"
             >
               <div className="bg-black px-[8px] py-[3px] absolute top-[15px] left-[15px] flex items-center gap-1 rounded-[20px]">
-                <img src={starIcon} className="w-[12px] h-[12px] " />
+                <img src={starIcon} alt="" className="w-[12px] h-[12px] " />
                 <span className="text-white-dark text-sm">4.5</span>
               </div>
 
-              <img src={m} className="w-[100%] h-[60%] object-cover" />
+              <img src={m} alt="" className="w-[100%] h-[60%] object-cover" />
               <div className="px-[15px] h-[40%] flex flex-col justify-between py-[15px]">
                 <div className="text-white-dark flex justify-between text-lg">
                   <span>Product</span>

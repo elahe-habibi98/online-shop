@@ -7,6 +7,7 @@ export default {
         "black-light": "#202124",
         "gray-dark": "#35363A",
         "gray-light": "#9B9B9B",
+        "gray-mild" : "#3E3F43",
         "blue-sky": "#8EB5FE",
         "green-lawn": "#0C9A56",
         "blue-navy": "#1768EC",
