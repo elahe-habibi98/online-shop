@@ -1,39 +1,12 @@
 #root {
-  /* max-width: 1280px; */
   margin: 0 auto;
-  /* padding: 2rem; */
-  /* text-align: center; */
-}
-body {
-  margin: 0;
 }
 .custom-input::placeholder {
   font-size: 14px;
 }
-
-/* .tabs-container {
-  width: 400px;
-  margin: 20px auto;
-} */
-
-/* .tabs {
-  display: flex;
-} */
-
-/* .tab {
-  cursor: pointer;
-  padding: 10px;
-  margin-right: 10px;
-  border: 1px solid #ddd;
-  background-color: #f1f1f1;
-} */
-
 .tab.active {
-  /* border-bottom: 3px solid blue; */
-  color: #f4f4f4;
+  background-color: #9b9b9b;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-
-/* .tab-content {
-  border: 1px solid #ddd;
-  margin-top: 10px;
-} */

@@ -24,7 +24,7 @@ const ShopContact: FC = (): JSX.Element => {
         <>
           <div key={index} className="flex gap-2 items-center ">
             <img src={m.icon} alt="" className="h-[15px] w-[15px] block" />
-            <span className="text-white-dark block">{m.value}</span>
+            <span className="hidden xl:block text-white-dark ">{m.value}</span>
           </div>
           {index !== contact.length - 1 && (
             <div className="flex items-center mx-auto">

@@ -7,7 +7,7 @@ import { Content } from "./Content";
 const LandingComponent: FC = (): JSX.Element => {
   return (
     <div
-    // className="bg-black-light"
+    className="bg-black-light"
     >
       {/* Header Section */}
       <div className="bg-black-light">

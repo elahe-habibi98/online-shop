@@ -18,11 +18,11 @@ const ShopInfo: FC = (): JSX.Element => {
     { icon: followersIcon, label: "Followers", value: "40.5K" },
     { icon: followingsIcon, label: "Followings", value: "1.5K" },
     { icon: ratingIcon, label: "Rating", value: "4.9" },
-    { icon: chatIcon, label: "Chat performance", value: "93%" },
+    { icon: chatIcon, label: "Performance", value: "93%" },
     { icon: joinIcon, label: "Joined", value: "4 years ago" },
   ];
   return (
-    <div className=" col-span-5 rounded-lg bg-gray-dark grid grid-cols-2 py-[10px] px-[15px]">
+    <div className="col-span-11 xl:col-span-5 rounded-lg bg-gray-dark grid grid-cols-2 py-[10px] px-[15px]">
       <div className=" flex flex-col justify-between lg:ms-5px">
         {info.slice(0, 3).map((m: TInfo, index: number) => (
           <div key={index} className="flex gap-2 items-center ">
